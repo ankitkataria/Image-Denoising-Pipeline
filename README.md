@@ -1,4 +1,12 @@
-# Image Denoising Pipeline
+# ECN - 316 Course Project
+
+## Group Members
+
+- Ankit Kataria - 1611606
+- Deepesh Pathak - 16116018
+- Sai Himal Allu - 16116055
+
+## Image Denoising Pipeline
 
 Image denoising is a research problem that has attracted significant amounts of attention from the academic community. Images often suffer from corruptions which can be categorized into two categories: blur and noise.
 Noise is a factor that mainly appears during the acquisition, transmission, and retrieval of the signals. The purpose of any denoising algorithm is to remove such noise while maintaining the maximum amount of details in the image.
