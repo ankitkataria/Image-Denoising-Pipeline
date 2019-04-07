@@ -117,7 +117,7 @@ if __name__ == "__main__":
     print('[+] Parameters: {}'.format(param))
 
     data = {}
-    data['noisy'] = cv2.imread("demo_data/kodim.png", 0)
+    data['noisy'] = cv2.imread("demo_data/test.png", 0)
     data['oracle'] = data['noisy']
 
     plt.imshow(data['noisy'], cmap='gray', vmin=0, vmax=255)
