@@ -41,7 +41,9 @@ def bm_fix(extractPatch, BMparam):
     mid             =   np.mod(swidth, 2) * ((swidth2+1)/2) + np.mod(swidth+1, 2) * (swidth2+swidth)/2
 
     # BMError
+    print(N1, M1)
     for i in range(0, N1):
+        print(N1)
         for j in range(0, M1):
             row =  r[i]
             col =  c[j]
@@ -61,7 +63,7 @@ def bm_fix(extractPatch, BMparam):
             BMerror = np.msort(metric)
             ind = np.argsort(metric)
 
-            # ye high level be dekhna padega
+           
             pos_arr[:, (j)*N1 + i]    =  idx[ind[0:tensorSize]]
             error_arr[:, (j)*N1 + i]  =  BMerror[ind[0:tensorSize]]
 

@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     data = {}
     data['noisy'] = cv2.imread("demo_data/test.png", 0)
-    data['oracle'] = data['noisy']
+    data['oracle'] = cv2.imread("demo_data/barbara.png", 0)
 
     plt.imshow(data['noisy'], cmap='gray', vmin=0, vmax=255)
     plt.show()
