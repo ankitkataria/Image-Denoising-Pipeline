@@ -19,6 +19,8 @@ In academic literature, noise is usually formulated with the help of a Gaussian 
 
 In this project, we tried experimenting with different standard approaches to this problem which are detailed in the forthcoming sections with the singular aim of creating an efficient pipeline for the purpose of denoising.
 
+For the finer details of this project, please refer to the [project report][2] or the [slides][1] used for presenting this project 
+
 ```bash
 $ virtualenv venv
 
@@ -36,3 +38,7 @@ $ python main.py
 **Denoised Image**
 
 ![Denoised Image](/demo_data/test_output.png)
+
+
+[1]: https://github.com/ankitkataria/Image-Denoising-Pipeline/blob/dip-project/Slides_Project.pdf
+[2]: https://github.com/ankitkataria/Image-Denoising-Pipeline/blob/dip-project/Report_Project.pdf
